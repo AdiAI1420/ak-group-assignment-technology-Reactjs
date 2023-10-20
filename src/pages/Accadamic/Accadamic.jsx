@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Photpholio = () => {
+const Accadamic = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Photpholio = () => {
   )
 }
 
-export default Photpholio
+export default Accadamic

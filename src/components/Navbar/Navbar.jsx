@@ -1,11 +1,135 @@
-import React from 'react'
+import React from "react";
+import Carsoler from "../Carsoler/Carsoler";
 
 const Navbar = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <header id="header" className="fixed-top">
+        <div className="container d-flex align-items-center">
+          <h1 className="logo me-auto">
+            <a href="#">
+              <span>AK</span> Group
+            </a>
+          </h1>
+          <nav
+            id="navbar"
+            className="navbar navbar-expand-lg order-last order-lg-0"
+          >
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNav">
+              <ul className="navbar-nav">
+                <li className="nav-item">
+                  <a href="#" className="nav-link active">
+                    Home
+                  </a>
+                </li>
+                <li className="nav-item dropdown">
+                  <a
+                    href="#"
+                    className="nav-link dropdown-toggle"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    About
+                  </a>
+                  <div
+                    className="dropdown-menu"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <a href="#" className="dropdown-item">
+                      About Us
+                    </a>
+                    <a href="#" className="dropdown-item">
+                      Team
+                    </a>
+                    <a href="#" className="dropdown-item">
+                      Testimonials
+                    </a>
+                    <div className="dropdown">
+                      <a href="#" className="dropdown-item dropdown-toggle">
+                        Projects
+                      </a>
+                      <div className="dropdown-menu">
+                        <a href="#" className="dropdown-item">
+                          Deep Drop Down 1
+                        </a>
+                        <a href="#" className="dropdown-item">
+                          Deep Drop Down 2
+                        </a>
+                        <a href="#" className="dropdown-item">
+                          Deep Drop Down 3
+                        </a>
+                        <a href="#" className="dropdown-item">
+                          Deep Drop Down 4
+                        </a>
+                        <a href="#" className="dropdown-item">
+                          Deep Drop Down 5
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li className="nav-item">
+                  <a href="#" className="nav-link">
+                    Services
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a href="#" className="nav-link">
+                    Accadamic
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a href="#" className="nav-link">
+                    Support It Works
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a href="#" className="nav-link">
+                    Blog
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a href="#" className="nav-link">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div className="header-social-links d-flex">
+            <a href="#" className="twitter">
+              <i className="bi bi-twitter" />
+            </a>
+            <a href="#" className="facebook">
+              <i className="bi bi-facebook" />
+            </a>
+            <a href="#" className="instagram">
+              <i className="bi bi-instagram" />
+            </a>
+            <a href="#" className="linkedin">
+              <i className="bi bi-linkedin" />
+            </a>
+          </div>
+        </div>
+      </header>
 
-export default Navbar
+      <Carsoler />
+    </>
+  );
+};
+
+export default Navbar;
