@@ -1,0 +1,40 @@
+/**********pricing css start here ******/
+.pricingsectionwrapper ul,
+.pricingsectionwrapper ul li {
+  list-style: none;
+}
+.pricingsectionwrapper ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.pricingsectionwrapper .pricingheader,
+.pricingsectionwrapper .pricingfooter {
+  background-color: #f8f8f8;
+  padding: 12px 6px;
+  font-size: 16px;
+  color: #847872;
+}
+.green {
+  color: #1bbd36;
+}
+.greenbg {
+  background-color: #1bbd36 !important;
+  color: #ffffff !important;
+}
+.grey {
+  color: #c6bfbc;
+}
+.pricingsectionwrapper h2 span {
+  font-size: 15px;
+}
+.advance {
+  position: absolute;
+  right: -38px;
+  transform: rotate(45deg);
+  color: #ffffff;
+  padding: 7px 40px;
+  top: 19px;
+}
+.pricingsectionwrapper .card {
+  overflow: hidden;
+}
+/**********pricing css end here ******/

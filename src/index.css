@@ -2066,7 +2066,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: #111;
+  background: #080707;
 }
 
 #footer .footer-top {
@@ -2139,7 +2139,7 @@ section {
   line-height: 1;
 }
 
-#footer .footer-top .footer-links ul a:hover {
+#footer .footer-top .-links ul a:hover {
   text-decoration: none;
   color: #fff;
 }
