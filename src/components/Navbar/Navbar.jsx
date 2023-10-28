@@ -1,6 +1,7 @@
 import React from "react";
 import Carsoler from "../Carsoler/Carsoler";
 
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
@@ -29,13 +30,13 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a href="#" className="nav-link active">
+                  <Link to='/' className="nav-link active">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item dropdown">
-                  <a
-                    href="#"
+                  <Link 
+                  to='/about'
                     className="nav-link dropdown-toggle"
                     id="navbarDropdown"
                     role="button"
@@ -44,7 +45,7 @@ const Navbar = () => {
                     aria-expanded="false"
                   >
                     About
-                  </a>
+                  </Link>
                   <div
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
@@ -83,9 +84,9 @@ const Navbar = () => {
                   </div>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link">
+                  <Link to='/services' className="nav-link">
                     Services
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <a href="#" className="nav-link">
@@ -103,9 +104,16 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link">
+                  <Link to="/contact" className="nav-link">
                     Contact
-                  </a>
+                  </Link>
+                </li>
+
+
+                <li className="nav-item">
+                  <Link to="/pricing" className="nav-link">
+                    Pricing
+                  </Link>
                 </li>
               </ul>
             </div>
