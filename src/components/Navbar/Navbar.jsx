@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <header id="header" className="fixed-top">
+      <header id="header" className="fixed-top" style={{backgroundColor:"white",color:"black"}}>
         <div className="container d-flex align-items-center">
           <h1 className="logo me-auto">
             <a href="#">
@@ -14,7 +14,7 @@ const Navbar = () => {
           </h1>
           <nav
             id="navbar"
-            className="navbar navbar-expand-lg order-last order-lg-0"
+            className="navbar   navbar-expand-lg order-last order-lg-0"
           >
             <button
               className="navbar-toggler"
@@ -84,8 +84,8 @@ const Navbar = () => {
                   </div>
                 </li>
                 <li className="nav-item">
-                  <Link to='/services' className="nav-link">
-                    Services
+                  <Link to='/Coursepage' className="nav-link">
+                  Coursepage
                   </Link>
                 </li>
                 <li className="nav-item">
