@@ -1,10 +1,11 @@
 import React from "react";
 import Carsoler from "../Carsoler/Carsoler";
 
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <header id="header" className="fixed-top">
+      <header id="header" className="fixed-top" style={{backgroundColor:"white",color:"black"}}>
         <div className="container d-flex align-items-center">
           <h1 className="logo me-auto">
             <a href="#">
@@ -13,7 +14,7 @@ const Navbar = () => {
           </h1>
           <nav
             id="navbar"
-            className="navbar navbar-expand-lg order-last order-lg-0"
+            className="navbar   navbar-expand-lg order-last order-lg-0"
           >
             <button
               className="navbar-toggler"
@@ -29,13 +30,13 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a href="#" className="nav-link active">
+                  <Link to='/' className="nav-link active">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item dropdown">
-                  <a
-                    href="#"
+                  <Link 
+                  to='/about'
                     className="nav-link dropdown-toggle"
                     id="navbarDropdown"
                     role="button"
@@ -44,7 +45,7 @@ const Navbar = () => {
                     aria-expanded="false"
                   >
                     About
-                  </a>
+                  </Link>
                   <div
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
@@ -83,9 +84,9 @@ const Navbar = () => {
                   </div>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link">
-                    Services
-                  </a>
+                  <Link to='/Coursepage' className="nav-link">
+                  Coursepage
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <a href="#" className="nav-link">
@@ -103,9 +104,16 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link">
+                  <Link to="/contact" className="nav-link">
                     Contact
-                  </a>
+                  </Link>
+                </li>
+
+
+                <li className="nav-item">
+                  <Link to="/pricing" className="nav-link">
+                    Pricing
+                  </Link>
                 </li>
               </ul>
             </div>
