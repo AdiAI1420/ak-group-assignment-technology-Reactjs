@@ -10,6 +10,7 @@ import Contact from './pages/Contact/Contact'
 
 
 import Coursepage from './pages/Coursepage/Coursepage'
+import ServiceTest from './pages/Services/Services/Service'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
 <Route path='/pricing'  element={<Pricing/>}/>
 <Route path='/contact'  element={<Contact/>}/>
 <Route path='/Coursepage'  element={<Coursepage/>}/>
+<Route path='/Services'  element={<ServiceTest/>}/>
 
 
 

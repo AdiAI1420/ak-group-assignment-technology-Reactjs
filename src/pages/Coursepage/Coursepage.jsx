@@ -90,13 +90,15 @@ const Coursepage = () => {
           Our <strong style={{ color: "#1bbd36" }}>services</strong>
         </h2>
         <div className="row  card-container">
-          {Data.map((d) => (
-            <div key={d.id} className="col-sm-4  mt-5 ">
+      
+        {
+          Data.map((d) => (
+            <div key={d.id} className="col-sm-4 mt-5">
               <div className="card" style={{ boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)", border: "1px solid #ccc", borderRadius: "5px", background: "#f8f8f8" }}>
                 <img
                   src={d.imageSrc}
-                  width="250px"
-                  height="250px"
+                  width="100%" // Set the width to 100% to make it responsive
+                  height="auto" // Let the height adjust automatically to maintain aspect ratio
                   alt={d.title}
                   className="card-img-top"
                 />
@@ -106,11 +108,13 @@ const Coursepage = () => {
                       <h3 style={{ color: "#1bbd36" }}>{d.title}</h3>
                     </a>
                   </h5>
-                  <p className="card-text">{d.description}</p>  <button className="btn btn-primary btn-sm">Check out</button>
+                  <p className="card-text">{d.description}</p>
+                  <button className="btn btn-primary btn-sm">Check out</button>
                 </div>
               </div>
             </div>
-          ))}
+          ))
+        }
         </div>
       </div>
     </div>
