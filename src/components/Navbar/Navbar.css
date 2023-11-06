@@ -1,0 +1,8 @@
+/* Navbar.css */
+#header {
+    background: linear-gradient(to left,#1bbd46,rgb(75, 211, 211),);
+  }
+  
+  .nav-link.active {
+    color: yellow; /* Change the active link color as desired */
+  }

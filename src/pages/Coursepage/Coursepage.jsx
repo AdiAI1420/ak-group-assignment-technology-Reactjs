@@ -8,7 +8,7 @@ const Data = [
     imageSrc:
       "https://img.freepik.com/free-vector/creative-abstract-quantum-illustration_23-2149236239.jpg?size=626&ext=jpg&ga=GA1.1.1478565589.1699087102&semt=sph",
     description:
-      "Build professional work-like projects to master React, Node JS, MongoDB, Javascript, and more to land a top career as a full-stack developer with guaranteed placement.",
+      "Build professional work-like projects to master React, Node JS, MongoDB, Javascript, and more to land a top career as a full-stack developer with guaranteed .",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const Data = [
     imageSrc:
       "https://img.freepik.com/free-vector/app-development-concept-with-programming-languages_23-2148688949.jpg?size=626&ext=jpg&ga=GA1.1.1478565589.1699087102&semt=sph",
     description:
-      "Software development with this introduction to Java—one of the most in-demand programming languages and the foundation of the Android operating system.",
+      "Software development with this introduction to Java—one of the most in-demand programming languages ",
   },
   {
     id: 3,

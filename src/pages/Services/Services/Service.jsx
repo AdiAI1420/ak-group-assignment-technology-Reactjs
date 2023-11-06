@@ -8,6 +8,7 @@ export default function ServiceTest() {
       <div>
         <section id="services" className="services section-bg">
           <div className="container-fluid">
+          <h3 className="text-center fw-medium">Our <strong style={{color:"#1bbd36"}}>Services</strong></h3>
             <div className="row mt-5">
               <div className="col-lg-4 col-md-6 mt-5">
                 <div className="icon-box iconbox-blue">

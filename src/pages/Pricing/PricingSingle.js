@@ -1,9 +1,9 @@
 import React from "react";
-import "./Pricing.css";
+import "./PricingSingle.css";
 
 const PricingSingle = ({ item, index }) => {
   return (
-    <div className="col-sm-4">
+    <div className="col-sm-4 fw-bold font-italic">
       <div className="card">
         <div
           className={
@@ -59,6 +59,11 @@ const PricingSingle = ({ item, index }) => {
               .NET / POWER BI
               <span className="badge bg-success rounded-pill">Popular</span>
             </li>
+
+            <li className="list-group-item d-flex justify-content-between align-items-center">
+            UI
+            <span className="badge bg-success rounded-pill">Popular</span>
+          </li>
           </ul>
         </div>
         <div className="pricingheader">
