@@ -1,59 +1,36 @@
-/**********pricing css start here ******/
-.pricingsectionwrapper ul,
-.pricingsectionwrapper ul li {
-  list-style: none;
+/* Default card styles */
+.card {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
 }
-.pricingsectionwrapper ul li:not(:last-child) {
-  margin-bottom: 10px;
-}
-.pricingsectionwrapper .pricingheader,
-.pricingsectionwrapper .pricingfooter {
-  background-color: #f8f8f8;
-  padding: 12px 6px;
-  font-size: 16px;
-  color: #847872;
-}
-.green {
-  color: #1bbd36;
-}
-.greenbg {
-  background-color: #1bbd36 !important;
-  color: #ffffff !important;
-}
-.grey {
-  color: #c6bfbc;
-}
-.pricingsectionwrapper h2 span {
-  font-size: 15px;
-}
-.advance {
-  position: absolute;
-  right: -38px;
-  transform: rotate(45deg);
-  color: #ffffff;
-  padding: 7px 40px;
-  top: 19px;
-}
-.pricingsectionwrapper .card {
+
+/* Hover effect - slightly scale and change the shadow on hover */
+.card:hover {
+  border: 2px solid #1bbd36;
   overflow: hidden;
-}
-/**********pricing css end here ******/
-
-
-
-
-/* Your CSS file */
-.fade-in {
-  animation: fadeIn 1s ease-in-out forwards;
+  box-shadow: 0px 5px 5px 5px #1bbd36;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  background-color: black;
+  color: white;
+  font-family: cursive;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(10px);
+/* Responsive styles for screens smaller than 768px (adjust as needed) */
+@media (max-width: 768px) {
+  .card {
+    /* Modify card styles for smaller screens */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
+
+  /* Modify hover effect for smaller screens */
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: black;
+    color: white;
   }
 }

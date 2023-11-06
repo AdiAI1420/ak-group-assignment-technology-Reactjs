@@ -1,8 +1,16 @@
-import React from "react";
-import Carsoler from "../Carsoler/Carsoler";
+import React, { useState } from "react";
+
+
+import "./Navbar.css"
 
 import { Link } from "react-router-dom";
 const Navbar = () => {
+
+  const [res, setRes] = useState(false); // Change to false initially
+
+  const handlerClick = () => {
+    setRes(!true); // Toggle the 'res' state between true and false
+  };
   return (
     <>
       <header id="header" className="fixed-top" style={{backgroundColor:"white",color:"black"}}>
@@ -16,17 +24,21 @@ const Navbar = () => {
             id="navbar"
             className="navbar   navbar-expand-lg order-last order-lg-0"
           >
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
+          
+
+          <button
+          onClick={handlerClick}
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" // Make sure this matches your navbar's ID
+          aria-controls="navbarNav"
+          aria-expanded={res} // Use the 'res' state here
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
@@ -141,7 +153,15 @@ const Navbar = () => {
         </div>
       </header>
 
-      <Carsoler />
+   <br />
+   <br />  <br />
+   <br />
+   <br />
+   <br />
+
+
+   
+
     </>
   );
 };

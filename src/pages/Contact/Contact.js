@@ -29,7 +29,7 @@ const Contact = () => {
     <div className="contact-container container-fluid">
       <div className="localtion-container p-3 shadow-sm rounded">
         <h3 className="text-center">
-          Get in <strong style={{ color: '#1bbd64' }}>Contact</strong> with us
+        <strong style={{ color: '#1bbd64' }}>  Get in </strong> Contact   <strong style={{ color: '#1bbd64' }}> with us</strong>
         </h3>
         <iframe
           className="localtion-container"
@@ -65,8 +65,8 @@ const Contact = () => {
           </div>
           <div>
             <h1 className="item-heading">Cell:</h1>
-            <p className="address">+1 9398895448</p>
-            <p className="address">+1 9182888482</p>
+            <p className="address"> 9398895448</p>
+            <p className="address"> 9182888482</p>
           </div>
         </div>
       </div>

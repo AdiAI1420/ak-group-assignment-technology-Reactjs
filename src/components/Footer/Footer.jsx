@@ -1,4 +1,5 @@
 import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
   return (
@@ -9,15 +10,12 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6 footer-contact">
               <h3>AK TECHNOLOGY</h3>
               <p>
-              Accadamic Projects  <br />
-           Job Support 
-                <br />
-               It Works <br />
-                <br />
+                Accademic Projects <br />
+                Job Support <br />
+                It Works <br />
                 <strong>Phone:</strong> +91 8341553216
                 <br />
-                <strong>Email:</strong> accadamic.info2023@gmail.com
-                <br />
+                <strong>Email:</strong> accademic.info2023@gmail.com
               </p>
             </div>
             <div className="col-lg-2 col-md-6 footer-links">
@@ -62,9 +60,7 @@ const Footer = () => {
             </div>
             <div className="col-lg-4 col-md-6 footer-newsletter">
               <h4>Join Our Instagram</h4>
-              <p>
-                Online / Offline
-              </p>
+              <p>Online / Offline</p>
               <form action="" method="post">
                 <input type="email" name="email" />
                 <input type="submit" defaultValue="Subscribe" />
@@ -82,9 +78,16 @@ const Footer = () => {
             </strong>
             . All Rights Reserved
           </div>
-          <div className="credits" >
-          
-            Designed by <a  href="" >AK GROUP</a>
+          <div className="credits">
+            Designed by <a href="#" style={{ color: '#1bbd34' }} className="fw-bold">
+              AK GROUP
+            </a>
+          </div>
+
+          <div className="scrolling-text">
+            <p>
+              <strong style={{ color: '#1bbd34' }}>Our Team Visits Your Locations</strong> Tadipatri, Anantapuram, Kadapa, Nellore, Guntur, Pulivendula
+            </p>
           </div>
         </div>
         <div className="social-links text-center text-md-right pt-3 pt-md-0">
@@ -104,6 +107,10 @@ const Footer = () => {
             <i className="bx bxl-linkedin" />
           </a>
         </div>
+
+        <a href="#" className="text-center">
+          <h4 style={{ color: '#1bbd34' }}>Online/ <strong className="text-white">Offline</strong></h4>
+        </a>
       </div>
     </footer>
   );

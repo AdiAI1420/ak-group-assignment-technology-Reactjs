@@ -6,7 +6,10 @@ const Features = () => {
       <div className="features-bg-color">
         <div className="section-title">
           <h2>Features</h2>
-          <p>
+          <p className="p-4 border border-dark shadow p-3 mb-5 bg-white rounded-3"
+         data-bs-toggle="zoom"
+         data-bs-zoom-in="1.2"
+         data-bs-zoom-out="1">
             The software development industry is also a huge contributor to the global economy with a higher demand for trained software developers in the USA, UK, India, and other countries. In India, the demand skyrockets every year! The average annual salary of a software developer is nearly 5 lakhs in India at present, which shows software development is the right career for aspiring young talents. There is the best software that will help them gain skills for developing software using specific technologies.
           </p>
         </div>

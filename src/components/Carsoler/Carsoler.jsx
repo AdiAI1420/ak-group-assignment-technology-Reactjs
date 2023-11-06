@@ -3,7 +3,7 @@ import Carousel from 'better-react-carousel'
 
 const Carsoler = () => {
   return (
-    <Carousel cols={1} rows={1}  loop>
+    <Carousel cols={1} rows={1}  loop style={{marginTop:"20px"}}>
       <Carousel.Item>
       <img width="100%" height="750px" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN1cHBvcnRpbmclMjBqb2JzfGVufDB8fDB8fHww" />
       </Carousel.Item>
