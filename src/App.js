@@ -1,39 +1,42 @@
-import React from 'react'
-import Home from './pages/Home/Home'
-import Navbar from './components/Navbar/Navbar'
-import Footer from './components/Footer/Footer'
-import Pricing from './pages/Pricing/Pricing'
+import React from "react";
+import Home from "./pages/Home/Home";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import Technology from "./pages/Technology/Technology";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Contact from "./pages/Contact/Contact";
 
 
-import { BrowserRouter , Routes, Route } from 'react-router-dom';
-import Contact from './pages/Contact/Contact'
+import ServiceTest from "./pages/Services/Services/Service";
+import Designservices from "./pages/design-services-home/Designservices";
+
+import Aboutus from "./pages/About/Aboutus";
 
 
-import Coursepage from './pages/Coursepage/Coursepage'
-import ServiceTest from './pages/Services/Services/Service'
 
 const App = () => {
   return (
-<>
+    <>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<Aboutus />} />
 
-<BrowserRouter>
-<Navbar />
-<Routes>
+          <Route path="/Technology" element={<Technology />} />
+          <Route path="/contact" element={<Contact />} />
+     
+          <Route path="/Services" element={<ServiceTest />} />
+         
+        
 
-<Route path='/'  element={<Home/>}/>
+          <Route path="/designservices" element={<Designservices />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </>
+  );
+};
 
-<Route path='/pricing'  element={<Pricing/>}/>
-<Route path='/contact'  element={<Contact/>}/>
-<Route path='/Coursepage'  element={<Coursepage/>}/>
-<Route path='/Services'  element={<ServiceTest/>}/>
-
-
-
-</Routes>
-<Footer />
-</BrowserRouter>
-</>
-  )
-}
-
-export default App
+export default App;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Pricing.css";
-import PricingSingle from "./PricingSingle";
+import PricingSingle from "./TechnologySingle.js";
 
 const pricingArr = [
   "ACADEMIC PROJECT",

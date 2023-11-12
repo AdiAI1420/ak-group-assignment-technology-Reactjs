@@ -1,15 +1,18 @@
 import React from "react";
 import "./Service.css";
 import Features from '../../Features/Features/Features/Features';
+import Designservices from "../../design-services-home/Designservices";
+import ClientComponent from "../../Client/Client";
 
 export default function ServiceTest() {
   return (
-    <>
+    <>   
       <div>
         <section id="services" className="services section-bg">
           <div className="container-fluid">
           <h3 className="text-center fw-medium">Our <strong style={{color:"#1bbd36"}}>Services</strong></h3>
-            <div className="row mt-5">
+          <Designservices />
+          <div className="row mt-5">
               <div className="col-lg-4 col-md-6 mt-5">
                 <div className="icon-box iconbox-blue">
                   <div className="icon">
@@ -175,6 +178,10 @@ export default function ServiceTest() {
         </section>
       </div>
       <Features/>
+
+   
+
+      <ClientComponent />
     </>
   );
 }

@@ -87,7 +87,7 @@ const Coursepage = () => {
     <div className="container">
       <div className="row ">
         <h2 className="text-center">
-          Our <strong style={{ color: "#1bbd36" }}>services</strong>
+          Our <strong style={{ color: "#1bbd36" }}>Accadamic Service </strong>Technologys
         </h2>
         <div className="row  card-container">
       

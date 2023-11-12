@@ -1,7 +1,7 @@
 import React from "react";
 import "./PricingSingle.css";
 
-const PricingSingle = ({ item, index }) => {
+const TechnologySingle = ({ item, index }) => {
   return (
     <div className="col-sm-4 fw-bold font-italic">
       <div className="card">
@@ -77,4 +77,4 @@ const PricingSingle = ({ item, index }) => {
   );
 };
 
-export default PricingSingle;
+export default TechnologySingle;
