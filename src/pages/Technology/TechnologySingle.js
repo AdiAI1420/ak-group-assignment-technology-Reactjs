@@ -57,14 +57,22 @@ const TechnologySingle = ({ item, index }) => {
             </li>
             <li className="list-group-item d-flex justify-content-between align-items-center">
               .NET / POWER BI
-              <span className="badge bg-success rounded-pill">Popular</span>
+              <span className="badge bg-success rounded-pill">Mid Level</span>
             </li>
 
             <li className="list-group-item d-flex justify-content-between align-items-center">
             UI
             <span className="badge bg-success rounded-pill">Popular</span>
           </li>
+
+          <li className="list-group-item d-flex justify-content-between align-items-center">
+          PEGA
+          <span className="badge bg-success rounded-pill">Advanced</span>
+</li>
           </ul>
+
+
+
         </div>
         <div className="pricingheader">
           <button className="btn btn-dark btn-pillow shadow fw-bold">Book Now</button>

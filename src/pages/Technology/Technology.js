@@ -12,6 +12,7 @@ const pricingArr = [
   ".NET",
   "ML DL R",
   "UI",
+  "PEGA",
 ];
 
 const Pricing = () => {
