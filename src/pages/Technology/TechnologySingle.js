@@ -3,7 +3,7 @@ import "./PricingSingle.css";
 
 const TechnologySingle = ({ item, index }) => {
   return (
-    <div className="col-sm-4 fw-bold font-italic">
+    <div className="col-sm-4 fw-bold  mt-5">
       <div className="card">
         <div
           className={
@@ -14,7 +14,7 @@ const TechnologySingle = ({ item, index }) => {
         >
           {item}
         </div>
-        <div className="p-4">
+        <div className="p-4 mt-5">
           <h3 className="grey">
             <span className="green">
               {/* Add your course details title here */}
@@ -22,7 +22,7 @@ const TechnologySingle = ({ item, index }) => {
             </span>
             <span className="month grey"></span>
           </h3>
-          <ul className="my-3">
+          <ul className="my-3 mt-5">
             <li className="list-group-item d-flex justify-content-between align-items-center">
               WEB APPLICATION
               <span className="badge bg-primary rounded-pill">New</span>

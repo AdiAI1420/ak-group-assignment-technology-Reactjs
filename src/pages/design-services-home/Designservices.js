@@ -2,7 +2,7 @@ import React from "react";
 import "./design-services-home.css"
 const Designservices = (props) => {
   return (
-    <div className="container">
+    <div className="container mt-5">
       <div className="card mb-3">
         <img
           src="./assets/web-design-background-2.jpg"
@@ -10,13 +10,13 @@ const Designservices = (props) => {
           alt="websiteDesigningImage"
         />
         <div className="card-body">
-          <h1 className="card-title mainHeading">
+          <h5 className="card-title mainHeading">
             <span className="boldSentences">Web Designing</span> Services at
             Your Door Step
-          </h1>
-          <h4 className="card-subtitle mb-2 miniHeading">
+          </h5>
+          <h6 className="card-subtitle mb-2 miniHeading">
           The design of a website holds the power to transform a mere visitor into a potential customer, paving the way for meaningful connections and conversions.
-          </h4>
+          </h6>
           <p className="card-text websiteTextContent">
             Create a splendid first impression with spectacular web designing
             services. ITinfo Digital{" "}

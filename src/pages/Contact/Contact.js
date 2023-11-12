@@ -4,6 +4,8 @@ import { GoMail } from 'react-icons/go';
 import { BsPhone } from 'react-icons/bs';
 import './Contact.css';
 
+import ClientComponent from "../Client/Client"
+
 const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -26,18 +28,30 @@ const Contact = () => {
   };
 
   return (
+
+
+
     <div className="contact-container container-fluid">
+
+
+    <ClientComponent />
+
+
       <div className="localtion-container p-3 shadow-sm rounded">
         <h3 className="text-center">
         <strong style={{ color: '#1bbd64' }}>  Get in </strong> Contact   <strong style={{ color: '#1bbd64' }}> with us</strong>
         </h3>
+      
         <iframe
-          className="localtion-container"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3803.951242805594!2d78.43877417341437!3d17.55750789788549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8febae684725%3A0xf68829bbd4741552!2sMahesh%20Arcade.!5e0!3m2!1sen!2sin!4v1699165214486!5m2!1sen!2sin"
-          frameBorder="0"
-          title="map"
-          allowFullScreen
-        />
+        classname="localtion-container"
+        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3854.8120026561137!2d77.98176897511296!3d14.947563685580896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTTCsDU2JzUxLjIiTiA3N8KwNTknMDMuNiJF!5e0!3m2!1sen!2sin!4v1699752988003!5m2!1sen!2sin"
+        width={600}
+        height={450}
+        style={{ border: 0 }}
+        allowFullScreen=""
+        loading="lazy"referrerPolicy="no-referrer-when-downgrade"
+      />
+      
       </div>
       <div className="contact-details-container   container-fluid row">
         <div className="col-12 col-md-4 d-flex flex-column mb-3">
@@ -46,8 +60,8 @@ const Contact = () => {
           </div>
           <div>
             <h1 className="item-heading">Location:</h1>
-            <p className="address">Bhaduraplli</p>
-            <p className="address">Hyderabad</p>
+            <p className="address">Kadapa,Nellure,Guntur,Vijawadha,Bhaduraplli,Hyderabad</p>
+            <p className="address">Tadipatri,Anathapuram,Pulivendula</p>
           </div>
         </div>
         <div className="col-12 col-md-4 d-flex flex-column mb-3">
@@ -57,6 +71,7 @@ const Contact = () => {
           <div>
             <h1 className="item-heading">Email:</h1>
             <p className="address">accadamic.info@gmail.com</p>
+            <p className="address">accadamic.info2023.khalandar@gmail.com</p>
           </div>
         </div>
         <div className="col-12 col-md-4 d-flex flex-column">
@@ -65,7 +80,7 @@ const Contact = () => {
           </div>
           <div>
             <h1 className="item-heading">Cell:</h1>
-            <p className="address"> 9398895448</p>
+            <p className="address"> 8341553216</p>
             <p className="address"> 9182888482</p>
           </div>
         </div>
@@ -121,8 +136,19 @@ const Contact = () => {
         </button>
         <p className="mt-3">{errorMessage}</p>
       </div>
+
+
+
+     
+
     </div>
+
+
+
+    
   );
 };
+
+
 
 export default Contact;

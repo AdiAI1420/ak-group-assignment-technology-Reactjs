@@ -2,7 +2,7 @@ import React from "react";
 import "./Service.css";
 import Features from '../../Features/Features/Features/Features';
 import Designservices from "../../design-services-home/Designservices";
-import ClientComponent from "../../Client/Client";
+
 
 export default function ServiceTest() {
   return (
@@ -181,7 +181,7 @@ export default function ServiceTest() {
 
    
 
-      <ClientComponent />
+    
     </>
   );
 }
