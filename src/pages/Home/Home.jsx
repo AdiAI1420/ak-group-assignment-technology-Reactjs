@@ -17,6 +17,8 @@ const Home = () => {
 
   return (
     <div className="container-fluid mt-5 bg-light p-5">
+
+    <Carousel/>
       <h6 className="text-center text-dark">
         Take the next step in your academic project. We provide comprehensive solutions for academic projects, offering support both online and offline 24/7. Your ideas are our priority, and we ensure on-time delivery, detailed reports, and seamless submission of your tasks and project code.
       </h6>
