@@ -1,6 +1,7 @@
 import React from "react";
 import "./PricingSingle.css";
 
+
 const TechnologySingle = ({ item, index }) => {
   return (
     <div className="col-sm-4 fw-bold  mt-5">
@@ -81,7 +82,11 @@ const TechnologySingle = ({ item, index }) => {
           <div className="advance greenbg fw-bold">Advance</div>
         ) : null}
       </div>
-    </div>
+    
+  
+      </div>
+
+
   );
 };
 

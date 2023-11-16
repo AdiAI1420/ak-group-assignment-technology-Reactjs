@@ -3,6 +3,10 @@ import './About.css';
 import Aboutdata from './Aboutdata';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import Comments from '../Comments/Comments';
+import HelpServices from '../HelpSerivces/HelpServices';
+import OurProcess from '../Our Process/Ourprocess';
+
+import About  from '../aboutmain/About';
 
 const Aboutus = () => {
   const [current, setCurrent] = useState(0);
@@ -17,8 +21,16 @@ const Aboutus = () => {
   };
 
   return (
-    <div className='container-fluid'>
-      <div className='row align-items-center'>
+
+
+<>
+    <About />
+    <div className='container-fluid mt-5'>
+
+
+
+
+      <div className='row align-items-center mt-5'>
         <div className='col-md-6'>
           <div className='parentImage'>
             <img
@@ -55,12 +67,18 @@ const Aboutus = () => {
         </div>
       </div>
       <Comments />
+
+
+        <HelpServices />
+
+        <OurProcess />
     </div>
 
 
 
-    
+    </>  
   );
+
 };
 
 export default Aboutus;

@@ -12,6 +12,8 @@ import ServiceTest from "./pages/Services/Services/Service";
 import Designservices from "./pages/design-services-home/Designservices";
 
 import Aboutus from "./pages/About/Aboutus";
+import Projects from "./pages/Projects/Projects";
+import Accadamic from "./pages/Accadamic/Accadamic";
 
 
 
@@ -28,10 +30,16 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
      
           <Route path="/Services" element={<ServiceTest />} />
+
+          // accadamic mca 
+          <Route path="/Accadamic" element={<Accadamic />} />
          
         
 
           <Route path="/designservices" element={<Designservices />} />
+
+          // projects 
+          <Route path="/Projects" element={<Projects/>} />
         </Routes>
         <Footer />
       </BrowserRouter>

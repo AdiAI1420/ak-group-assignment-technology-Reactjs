@@ -73,6 +73,15 @@ const Navbar = () => {
                     Blog
                   </a>
                 </li>
+
+
+                <li className="nav-item">
+                <Link to="/Projects" className="nav-link">
+                  Projects
+                </Link>
+              </li>
+
+
                 <li className="nav-item">
                   <Link to="/contact" className="nav-link">
                     Contact
@@ -92,11 +101,9 @@ const Navbar = () => {
             </div>
           </nav>
           <div className="header-social-links d-flex">
-            <a href="#" className="twitter">
-              <i className="bi bi-twitter" />
-            </a>
+         
             <a href="#" className="facebook">
-              <i className="bi bi-facebook" />
+              <i className="bi bi-whatsapp" />
             </a>
             <a href="#" className="instagram">
               <i className="bi bi-instagram" />
