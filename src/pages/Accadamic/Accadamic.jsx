@@ -4,7 +4,7 @@ import Accadamicmca from '../our-process-mca/Accadamicmca'
 
 const Accadamic = () => {
   return (
-    <div>
+    <div className='mt-5'>
     <Accadamicmca />
     </div>
   )

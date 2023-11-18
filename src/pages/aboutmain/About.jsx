@@ -9,7 +9,7 @@ const About = () => (
         <div className="register-container">
             <div className="details-details">
                 <h1 className="about-us-title"><span className="abuot-span">ABOUT</span> US</h1>
-                <p className="about-desecrption">Varnik Technologies is a leading software training provider in India.
+                <p className="about-desecrption">Ak Technologies is a leading software training provider in India.
                     We partner with companies and individuals imparting training and
                     coaching which helps working professionals achieve their career goals.
                     We are committed to student success.</p>

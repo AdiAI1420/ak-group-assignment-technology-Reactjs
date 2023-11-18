@@ -10,7 +10,11 @@ const Carsoler = () => {
       <Carousel.Item>
       <img width="100%" height="400px"    src="https://img.freepik.com/free-photo/team-working-by-group-video-call-share-ideas-brainstorming-negotiating-use-video-conference_482257-5133.jpg?size=626&ext=jpg&ga=GA1.1.1478565589.1699087102&semt=ais" />
       </Carousel.Item>
-      <Carousel.Item>
+  {/* 
+
+
+
+    <Carousel.Item>
         <img width="100%" height="400px"    src="https://img.freepik.com/premium-photo/business-team-manager-meeting_183219-11.jpg?size=626&ext=jpg&ga=GA1.1.1478565589.1699087102&semt=sph" />
       </Carousel.Item>
       <Carousel.Item>
@@ -37,6 +41,7 @@ const Carsoler = () => {
       <Carousel.Item>
       <img width="100%" height="400px"    src="https://img.freepik.com/premium-photo/team-colleagues-working-together-laptop_179314-109.jpg?size=626&ext=jpg&ga=GA1.1.1478565589.1699087102&semt=ais" />
     </Carousel.Item>
+*/}
  
 
  

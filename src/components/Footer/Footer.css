@@ -6,22 +6,26 @@
     animation: typing 20s steps(50, end), blink-caret 0.75s step-end infinite;
   }
   
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 100%;
-    }
+
+
+
+
+
+/* Footer.css */
+
+/* Add this at the end of the file */
+@keyframes typewriter {
+  from {
+    width: 0;
   }
-  
-  @keyframes blink-caret {
-    from,
-    to {
-      border-color: transparent;
-    }
-    50% {
-      border-color: #000;
-    }
+  to {
+    width: 100%;
   }
-  
+}
+
+.scrolling-text strong {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  animation: typewriter 3s steps(5) infinite;
+}

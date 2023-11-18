@@ -24,8 +24,8 @@ const Home = () => {
       </h6>
 
       <div className="text-center mt-3">
-        <button className="btn btn-primary mx-2">Find Out</button>
-        <button className="btn btn-secondary mx-2">Get in Touch</button>
+        <button className="btn btn-dark mx-2">Find Out</button>
+        <button className="btn btn-success mx-2">Get in Touch</button>
       </div>
 
       <div className="row mt-5">
@@ -34,9 +34,9 @@ const Home = () => {
             <div className="card-body">
               {/* Render a YouTube video player */}
               <ReactPlayer
-                url='https://www.youtube.com/watch?v=LXb3EKWsInQ'
+                url='https://youtu.be/f4Q1rxYbH6U?si=QaJCTjZQJi2iMp9M'
                 width='100%'
-                height='100%'
+                height='400px'
                 playing
                 controls
                 loop

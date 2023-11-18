@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 
+
 const Footer = () => {
   return (
     <footer id="footer">
@@ -84,11 +85,15 @@ const Footer = () => {
             </a>
           </div>
 
+
           <div className="scrolling-text">
-            <p>
-              <strong style={{ color: '#1bbd34' }}>Our Team Visits Your Locations</strong> Tadipatri, Anantapuram, Kadapa, Nellore, Guntur, Pulivendula
-            </p>
-          </div>
+          <p>
+            <strong style={{ color: '#1bbd34' }}>
+              Our Team Visits Your Locations: Tadipatri, Anantapuram, Kadapa, Nellore, Guntur, Pulivendula, Vijaywada, Hindupur, Menakur, Naidupetta
+            </strong>
+          </p>
+        </div>
+
         </div>
         <div className="social-links text-center text-md-right pt-3 pt-md-0">
           <a href="#" className="twitter">

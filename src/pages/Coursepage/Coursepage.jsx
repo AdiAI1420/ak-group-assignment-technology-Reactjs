@@ -1,5 +1,6 @@
 import React from "react";
 import "./Coursepage.css"
+import Course from "../courses/Courses";
 
 const Data = [
   {
@@ -84,6 +85,10 @@ const Data = [
 
 const Coursepage = () => {
   return (
+
+    <>
+<Course />
+    
     <div className="container">
       <div className="row ">
         <h2 className="text-center">
@@ -118,6 +123,8 @@ const Coursepage = () => {
         </div>
       </div>
     </div>
+
+    </>
   );
 };
 
