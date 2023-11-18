@@ -89,7 +89,7 @@ const Footer = () => {
           <div className="scrolling-text">
           <p>
             <strong style={{ color: '#1bbd34' }}>
-              Our Team Visits Your Locations: Tadipatri, Anantapuram, Kadapa, Nellore, Guntur, Pulivendula, Vijaywada, Hindupur, Menakur, Naidupetta
+              <p style={{ color: 'white' }}>Our Team Visits Your Locations:- </p>Tadipatri, Anantapuram, Kadapa, Nellore, Guntur, Pulivendula, Vijaywada, Hindupur, Menakur, Naidupetta
             </strong>
           </p>
         </div>
