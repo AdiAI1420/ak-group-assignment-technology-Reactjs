@@ -70,7 +70,7 @@ const Home = () => {
               <p className="card-text">
                 {/* Add your service description here */}
                 <h4> Project Support | On-Job Support :</h4>
-                <p className="mb-0">We help IT professionals by providing them Offline & Online On-Job Support in various technologies. If you have any difficulty or you need an expert to guide you to complete your project, then ak Softwares will be the right choice for you. Our expert working trainers will connect with you to solve your complex project requirements in real-time.</p>
+                <p className="mb-0">We offer Project Support and On-Job Support services for IT professionals, providing both offline and online assistance in various technologies. If you encounter any challenges or require expert guidance to successfully complete your project, ak Softwares is the ideal choice for you. Our experienced trainers will connect with you in real-time to address your complex project requirements.</p>
                 {/* Add more paragraphs as needed */}
               </p>
             </div>
