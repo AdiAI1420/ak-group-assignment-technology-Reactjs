@@ -62,11 +62,7 @@ const Navbar = () => {
                   </a>
                 </li>
 
-                <li className="nav-item">
-                <a href="#" className="nav-link">
-                IT JOB WORKS
-                </a>
-              </li>
+                
 
                 
 
