@@ -3,6 +3,10 @@ import React from "react";
 import ReactPlayer from 'react-player';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Typewriter } from 'react-simple-typewriter';
+import Admininfo from "./Admininfo/Admininfo";
+
+
+import Video from '../Home/accadamic.mp4'
 
 const Home = () => {
 
@@ -24,8 +28,8 @@ const Home = () => {
       </h6>
 
       <div className="text-center mt-3">
-        <button className="btn btn-dark mx-2">Find Out</button>
-        <button className="btn btn-success mx-2">Get in Touch</button>
+   
+        <button className="btn btn-dark mx-2">Get in Touch</button>
       </div>
 
       <div className="row mt-5">
@@ -34,7 +38,7 @@ const Home = () => {
             <div className="card-body">
               {/* Render a YouTube video player */}
               <ReactPlayer
-                url='https://youtu.be/f4Q1rxYbH6U?si=QaJCTjZQJi2iMp9M'
+                url={Video}
                 width='100%'
                 height='400px'
                 playing
@@ -77,7 +81,12 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      
+      <Admininfo />
     </div>
+
+
   );
 };
 

@@ -18,48 +18,48 @@ const Accadamic1 = (props) => {
 
     
 
-    <div className ="project-categories pt-5  pr-3" >
+    <div className ="project-categories text-dark" >
       <div className = "row">
         <div className = "col-sm-8">
           <h1 className = "pb-5"><span className = "headingColor">Project</span> Categories</h1>
           <div className = "list-items container">
       <div className="row">
-        <div className="col-md-4 pb-4">
+        <div className="col-md-4 ">
           <p>Python Projects</p>
         </div>
-        <div className="col-md-4 pb-4">
+        <div className="col-md-4 ">
           <p>Django Projects</p>
         </div>
-        <div className="col-md-4 pb-4 ">
+        <div className="col-md-4  ">
           <p>React JS Projects</p>
         </div>
         
       </div>
       <div className = "row">
-        <div className = "col-md-4 pb-4">
+        <div className = "col-md-4 ">
           <p>Java Projects</p>
 
         </div>
-        <div className = "col-md-4 pb-4">
+        <div className = "col-md-4 ">
           <p>.Net Projects</p> 
 
         </div>
-        <div className = "col-md-4 pb-4">
+        <div className = "col-md-4 ">
           <p>R Projects</p>
 
         </div>
 
       </div>
       <div className = "row">
-        <div className = "col-md-4 pb-4">
+        <div className = "col-md-4 ">
           <p>ML Projects</p>
 
         </div>
-        <div className = "col-md-4 pb-4">
+        <div className = "col-md-4 ">
           <p>DL Projects</p>
 
         </div>
-        <div className = "col-md-4 pb-4">
+        <div className = "col-md-4 ">
           <p>AI Projects</p>
 
         </div>
@@ -67,15 +67,15 @@ const Accadamic1 = (props) => {
 
       </div>
       <div className = "row">
-        <div className = "col-md-4 pb-4">
+        <div className = "col-md-4 ">
           <p>HTML Project</p>
 
         </div>
-        <div className = "col-md-4 pb-4">
+        <div className = "col-md-4 ">
           <p>css Projects</p>
 
         </div>
-        <div className = "col-md-4 pb-4">
+        <div className = "col-md-4 ">
           <p>Javascript Projects</p>
 
         </div>
@@ -83,16 +83,16 @@ const Accadamic1 = (props) => {
       </div>
 
       <div className = "row">
-        <div className = "col-md-4 pb-4">
+        <div className = "col-md-4 ">
           <p>Machine Learning Projects</p>
 
         </div>
-        <div className = "col-md-4 pb-4">
+        <div className = "col-md-4 ">
           <p>Manual Testing Projects</p>
 
         </div>
 
-        <div className = "col-md-4 pb-4">
+        <div className = "col-md-4 ">
           <p>Power Bi Projects</p>
 
         </div>
@@ -106,7 +106,7 @@ const Accadamic1 = (props) => {
 
         <div className = "col-sm-4">
           <h1><span className = "headingColor">About</span> us</h1>
-          <div class = "pb-3 pt-5">
+          <div class = "pb-3 ">
           <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d7709.623994017401!2d77.981769!3d14.947564000000002!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTTCsDU2JzUxLjIiTiA3N8KwNTknMDMuNiJF!5e0!3m2!1sen!2sin!4v1700750803570!5m2!1sen!2sin" width="350" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>s
           </div>
           <div class = "d-flex flex-row pt-2">

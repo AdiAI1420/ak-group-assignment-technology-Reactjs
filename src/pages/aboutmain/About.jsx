@@ -2,20 +2,20 @@ import { TiTick } from "react-icons/ti"
 import './About.css'
 
 const About = () => (
-    <div className="main-container">
-        <div className="about-container">
+    <div className="main-container text-white">
+        <div className="about-container text-white">
             <h1 className="about-title">ABOUT</h1>
         </div>
         <div className="register-container">
             <div className="details-details">
-                <h1 className="about-us-title"><span className="abuot-span">ABOUT</span> US</h1>
-                <p className="about-desecrption">Ak Technologies is a leading software training provider in India.
+                <h1 className=" about-us-title "><span className="abuot-span">ABOUT</span> US</h1>
+                <p className="text-white about-desecrption">Ak Technologies is a leading software training provider in India.
                     We partner with companies and individuals imparting training and
                     coaching which helps working professionals achieve their career goals.
                     We are committed to student success.</p>
                 <div>
                     <h2 className="our-goal-title"><TiTick className="icons" />OUR GOAL</h2>
-                    <p className="our-goal-desecrption">
+                    <p className="text-white our-goal-desecrption">
                         Aligning training programs to suit business needs. thereby enabling organisations to have a
                         skilled workforce that can cater to the evolving and dynamic needs of their customers.<b />
                         Focus on equipping individual learners with best in class skills to enable them start
@@ -24,14 +24,14 @@ const About = () => (
                     </p>
                 </div>
                 <div>
-                    <h2 className="our-goal-title"><TiTick className="icons" />WHO'S HEADING?</h2>
-                    <p className="our-goal-desecrption">
+                    <h2 className=" our-goal-title"><TiTick className="icons" />WHO'S HEADING?</h2>
+                    <p className="text-white our-goal-desecrption">
                         Our well trained professionals who has decades of corporate experience!
                     </p>
                 </div>
                 <div>
                     <h2 className="our-goal-title"><TiTick className="icons" />APPROACH</h2>
-                    <p className="our-goal-desecrption">
+                    <p className="text-white our-goal-desecrption">
                         Clearly understanding student needs and aspirations Use of orientation tools for skill assessment
                         baselining, Design training program leveraging the above, Interactive training to ensure students
                         maximize the learning opportunity, Continuous monitoring of progress and periodic feedback to students,

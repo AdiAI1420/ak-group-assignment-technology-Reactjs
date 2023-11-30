@@ -1,5 +1,5 @@
 import React from "react";
-import "./PricingSingle.css";
+
 
 
 const TechnologySingle = ({ item, index }) => {

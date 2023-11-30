@@ -37,7 +37,7 @@ const processData = [
 const Accadamicmca = () => {
   return (
     <div className="container">
-      <h1 className="heading">OUR <span className="boldWord">PROCESS</span></h1>
+      <h1 className="heading text-dark">OUR <strong className="">PROCESS</strong></h1>
       <div className="row">
         {processData.map((process, index) => (
           <div key={index} className="col-lg-4 mb-3">

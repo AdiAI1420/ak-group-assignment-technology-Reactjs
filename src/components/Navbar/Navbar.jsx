@@ -14,7 +14,10 @@ const Navbar = () => {
       <header
         id="header"
         className="fixed-top"
-        style={{ backgroundColor: "white", color: "black" }}
+        style={{
+
+          color: "white",
+        }}
       >
         <div className="container d-flex align-items-center">
           <h1 className="logo me-auto">
@@ -53,7 +56,7 @@ const Navbar = () => {
           
                 <li className="nav-item">
                   <Link to='/Accadamic'  className="nav-link">
-                    Academic Mca
+                    Academic 
                   </Link>
                 </li>
                 <li className="nav-item">

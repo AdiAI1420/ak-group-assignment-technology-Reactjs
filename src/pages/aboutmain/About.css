@@ -8,8 +8,10 @@
 .about-container {
     height: 220px;
     width: 100vw;
-    background-image: url("https://4.bp.blogspot.com/-Qgi16l-L6fc/WYB-cZok0KI/AAAAAAAABuw/0GfzvrBu51AuH0u3h0rHVBqxBxALvghvwCLcBGAs/s1600/writers-block-1.jpg");
+    background-image: url("");
     background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     display: flex;
     justify-content: center;

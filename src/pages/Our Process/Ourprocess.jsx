@@ -48,16 +48,16 @@ const OurProcess = () => {
   };
 
   return (
-    <div className='container carousel-inner carousel'>
+    <div className='container carousel-inner carousel text-dark'>
       <div className='px-5'>
           <h2 className='text-center' >Our <span style={{ color: '#1bbd36' }}>Process</span></h2>
           <Slider {...settings} className="slider">
             {cards.map((card) => (
-              <div className='card p-1 fw-light text-center shadow-lg border-dark mx-5 '>
+              <div className='card p-1 fw-light text-center shadow-lg text-dark mx-5 '>
                 <div key={card.id}>
-                  <p><h4>#{card.id}</h4></p>
-                    <h3>{card.title}</h3>
-                    <p>{card.description}</p>          
+                  <p><h4 className='text-dark'>#{card.id}</h4></p>
+                    <h3 className='text-dark'>{card.title}</h3>
+                    <p className='text-dark'>{card.description}</p>          
                 </div>
               </div>
             ))}

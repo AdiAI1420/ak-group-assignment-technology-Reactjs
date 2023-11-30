@@ -4,7 +4,10 @@ import Accadamic1 from './Accapdamic1/Accadamic1'
 import Opening from './Projectopenig/Opening'
 import AcademicProjects from './academicProjects/AcademicProjects'
 import Domains from './domains/Domains'
-import Test from './Developersupport/Test'
+
+import Overviewac from './Overviewac/Overviewac-main/Overviewac'
+import { CoursesDisplay } from './Projectsdispaly/ProjectsDisplay'
+
 
 
 
@@ -13,7 +16,7 @@ const Accadamic = () => {
     <div className='mt-5'>
     
 
-    
+    <Overviewac />
     <Accadamicmca />
 
     <Accadamic1 />
@@ -22,7 +25,8 @@ const Accadamic = () => {
     <AcademicProjects />
     <Domains />
 
-    <Test />
+<CoursesDisplay />
+
     </div>
   )
 }
