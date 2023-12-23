@@ -9,10 +9,10 @@ export const CoursesDisplay = () => {
   });
 
   return (
-    <div className="container-fluid row bg-dark-subtle text-black p-4">
+    <div className="container  bg-dark-subtle text-black ">
       <h2 className="text-center text-dark">Project Titles</h2>
       <hr />
-      <div className="col-7">
+      <div className="col-md-12">
         <ul className="list-group">
           {originalList.map((course) => (
             <li
@@ -26,7 +26,7 @@ export const CoursesDisplay = () => {
         </ul>
       </div>
 
-      <div className="col-5">{/* Empty div for spacing */}</div>
+
     </div>
   );
 };

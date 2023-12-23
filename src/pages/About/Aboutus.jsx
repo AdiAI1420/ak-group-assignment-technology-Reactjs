@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './About.css';
 import Aboutdata from './Aboutdata';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+
 import Comments from '../Comments/Comments';
 import HelpServices from '../HelpSerivces/HelpServices';
 import OurProcess from '../Our Process/Ourprocess';

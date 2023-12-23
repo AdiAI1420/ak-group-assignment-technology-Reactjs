@@ -7,6 +7,7 @@ import Admininfo from "./Admininfo/Admininfo";
 
 
 import Video from '../Home/accadamic.mp4'
+import { Link } from "react-browser-router";
 
 const Home = () => {
 
@@ -29,7 +30,7 @@ const Home = () => {
 
       <div className="text-center mt-3">
    
-        <button className="btn btn-dark mx-2">Get in Touch</button>
+        <Link to='/Contact' className="btn btn-dark mx-2">Get in Touch</Link>
       </div>
 
       <div className="row mt-5">

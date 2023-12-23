@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import { BiSolidQuoteAltLeft, BiSolidQuoteAltRight } from 'react-icons/bi';
 import './Comments.css';
 
-const Comment = ({ name, role, description }) => (
+const Comment = ({ name, description }) => (
   <tr key={name}>
-    <td className='btn btn-secondary btn-sm rounded-5 border-danger shadow'>{name}</td>
-    <td >{role}</td>
-    <td className='btn btn-warning btn-sm rounded-5 border-danger shadow'>{role ? `${description} - ${role}` : description}</td>
+    <td className='btn btn-secondary btn-lg rounded-5 border-danger shadow'>{name}</td>
+
+    <td className='btn btn-warning btn-sm  '>{description}</td>
   </tr>
 );
 
@@ -14,12 +14,12 @@ const Comments = () => {
   const jsonData = [
     {
       name: 'Adi',
-      role: 'Python  Full Stack Developer & React js Developer ',
+    
       description: 'Director at AK & Technical Expert.',
     },
     {
       name: 'Khalandar',
-      role: 'Writer and HR',
+
       description: 'Director at AK & Writer Expert as a subject',
     },
     {
@@ -83,11 +83,11 @@ const Comments = () => {
           onChange={(e) => setFilterName(e.target.value)}
         />
       </div>
-      <table className="table table-bordered table-hover shadow">
+      <table className="table table-bordered table-hover table-responsive table-striped-columns">
         <thead className="thead-dark">
           <tr>
             <th>Name</th>
-            <th>Role</th>
+           
             <th>Description</th>
           </tr>
         </thead>

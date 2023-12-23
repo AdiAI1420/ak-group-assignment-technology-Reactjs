@@ -112,16 +112,13 @@ const sortedCourseNames = courseNames.slice().sort((a, b) => a.title.localeCompa
 function Course() {
   return (
     <div className="container">
-    <h6 className="courses-heading text-center">Providing <strong>Technologys</strong> </h6>
-
+      <h1 className="text-center text-white">Providing <strong>Technologies</strong></h1>
       <hr className="heading-underline" />
+
       <div className="row">
         {sortedCourseNames.map((course) => (
-          <div
-            key={course.id}
-            className="col-sm-12 col-md-6 col-lg-3 button-container"
-          >
-            <div className="card mb-3">
+          <div key={course.id} className="col-md-4 mb-4">
+            <div className="card">
               <div className="card-body">
                 <h5 className="card-title">{course.title}</h5>
                 <a href={course.url} className="btn btn-primary course-button">

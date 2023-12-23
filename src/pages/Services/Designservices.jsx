@@ -1,7 +1,7 @@
+// Combined Component
 import React from "react";
-import "./Service.css";
+import "./design-services-home.css";
 import Features from '../../Features/Features/Features/Features';
-import Designservices from "../../design-services-home/Designservices";
 
 const Data = [
   {
@@ -70,50 +70,77 @@ const Data = [
     description:
       "   We provide a dynamic, versatile, and full-service digital marketing agency that doesn't rely on smoke and mirrors to attract new clients.",
   },
-
 ];
-export default function ServiceTest() {
+
+const Designservices = () => {
   return (
-    <> 
-       <Designservices />  
+    <div className="design-container">
       <div>
-      <div className="container">
-      <div className="row ">
-        <h2 className="text-center">
-          Our <strong style={{ color: "#1bbd36" }}> Service </strong>
-        </h2>
-        <div className="row  card-container">
-      
-        {
-          Data.map((d) => (
-            <div key={d.id} className="col-sm-4 mt-5">
-              <div className="our-card">
-                <img
-                  src={d.imageSrc}  
-                  alt={d.title}
-                  className="card-img"
-                />
-                <div className="card-body">
-                  <h5 className="card-title text-center">
-                    <a href="/"  className="title">
-                      <h3 className="title" style={{ color: "#0d1129", fontSize: 22, fontWeight:"bold"}} >{d.title}</h3>
-                    </a>
-                  </h5>
-                  <p className="card-text" >{d.description}</p>
+        <div className="container">
+          <div className="row ">
+            <h2 className="text-center">
+              Our <strong style={{ color: "#1bbd36" }}> Service </strong>
+            </h2>
+            <div className="row card-container">
+              {Data.map((d) => (
+                <div key={d.id} className="col-sm-4 mt-5">
+                  <div className="our-card">
+                    <img src={d.imageSrc} alt={d.title} className="card-img" />
+                    <div className="card-body">
+                      <h5 className="card-title text-center">
+                        <a href="/" className="title">
+                          <h3
+                            className="title"
+                            style={{
+                              color: "#0d1129",
+                              fontSize: 22,
+                              fontWeight: "bold",
+                            }}
+                          >
+                            {d.title}
+                          </h3>
+                        </a>
+                      </h5>
+                      <p className="card-text">{d.description}</p>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              ))}
             </div>
-          ))
-        }
+          </div>
+        </div>
+      </div>
+
+      <div className="design-card">
+        <img
+          src="./assets/web-design-background-2.jpg"
+          className="design-card-img"
+          alt="img"
+        />
+        <div className="design-card-body">
+          <h5 className="design-card-title">
+            <span className="title" style={{ color: "#1bbd36" }}>
+              Web Designing
+            </span>{" "}
+            Services at Your Door Step
+          </h5>
+          <h6 className="design-card-subtitle">
+            The design of a website holds the power to transform a mere visitor
+            into a potential customer, paving the way for meaningful connections
+            and conversions.
+          </h6>
+          <p className="design-card-text">
+            Create a splendid first impression with spectacular web designing
+            services. ITinfo DigitalWeb Designing services at your Door step
+            Absolutely! Making that first impression count is like opening a
+            door to endless possibilities, and ITinfo Digital is the keymaster.
+            The versatility to create websites for various niches is like having
+            a diverse palette for an artist endless creativity!
+          </p>
         </div>
       </div>
     </div>
-      </div>
-
-
-   
-
-    
-    </>
   );
-}
+};
+
+export default Designservices;

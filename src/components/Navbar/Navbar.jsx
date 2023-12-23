@@ -97,15 +97,18 @@ const Navbar = () => {
           </nav>
           <div className="header-social-links d-flex">
          
-            <a href="#" className="facebook">
-              <i className="bi bi-whatsapp" />
-            </a>
-            <a href="#" className="instagram">
-              <i className="bi bi-instagram" />
-            </a>
-            <a href="#" className="linkedin">
-              <i className="bi bi-linkedin" />
-            </a>
+          <a href="https://chat.whatsapp.com/Bt5ii6A12mB1MbhgUHWz0k" className="whatsapp">
+          <i className="bi bi-whatsapp" />
+        </a>
+        
+        <a href="https://www.instagram.com/adinarayanareddy61/" className="instagram">
+          <i className="bi bi-instagram" />
+        </a>
+        
+        <a href="https://www.linkedin.com/in/kummetha019471/" className="linkedin">
+          <i className="bi bi-linkedin" />
+        </a>
+        
           </div>
         </div>
       </header>
