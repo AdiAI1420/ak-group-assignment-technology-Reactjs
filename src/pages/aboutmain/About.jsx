@@ -2,6 +2,9 @@ import { TiTick } from "react-icons/ti"
 import './About.css'
 
 const About = () => (
+
+    <>
+    <div className="container">
     <div className="main-container text-white">
         <div className="about-container text-white">
             <h1 className="about-title">ABOUT</h1>
@@ -101,7 +104,7 @@ const About = () => (
         </div>
     </div>
 
-
+    </div></>
 )
 
 export default About
