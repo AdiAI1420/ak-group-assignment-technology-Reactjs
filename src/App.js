@@ -20,8 +20,11 @@ import Projects from "./pages/Projects/Projects";
 import Accadamic from "./pages/Accadamic/Accadamic";
 import Particle from "./Particle";
 
-import Contact from "./pages/Contact/Contact";
-import ServiceTest from "./pages/Services/Services/Service";
+
+
+
+import Supportitworks from "./pages/SupportItWorks/SupportItWorks/Supportitworks";
+import Contact from "./pages/Contant/Contact/Contact";
 
 
 
@@ -37,6 +40,7 @@ const App = () => {
      <Route path="/about" element={<Aboutus />} />
 
      <Route path="/Technology" element={<Technology />} />
+
      <Route path="/contact" element={<Contact />} />
 
      <Route path="/Services" element={<Designservices />} />
@@ -46,7 +50,10 @@ const App = () => {
     
    
 
-     <Route path="/designservices" element={<ServiceTest />} />
+   />
+
+
+     <Route path="/Supportitworks" element={<Supportitworks />} />
 
      // projects 
      <Route path="/Projects" element={<Projects/>} />

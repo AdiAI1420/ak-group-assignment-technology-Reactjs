@@ -60,9 +60,9 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link">
+                  <Link to='/Supportitworks'  className="nav-link">
                     Support It Works
-                  </a>
+                  </Link>
                 </li>
 
                 

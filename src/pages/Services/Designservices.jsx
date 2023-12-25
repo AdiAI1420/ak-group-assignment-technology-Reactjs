@@ -1,8 +1,10 @@
 // Combined Component
 import React from "react";
 import "./design-services-home.css";
-import Features from '../../Features/Features/Features/Features';
 
+import Features from "./Featuresdata";
+
+import Servicedata from "./Servicedata"
 const Data = [
   {
     id: 1,
@@ -75,6 +77,8 @@ const Data = [
 const Designservices = () => {
   return (
     <div className="design-container">
+
+    <Features/>
       <div>
         <div className="container">
           <div className="row ">
@@ -139,6 +143,8 @@ const Designservices = () => {
           </p>
         </div>
       </div>
+<Servicedata />
+   
     </div>
   );
 };

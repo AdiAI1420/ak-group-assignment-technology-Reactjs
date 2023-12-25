@@ -6,7 +6,9 @@ import Comments from '../Comments/Comments';
 import HelpServices from '../HelpSerivces/HelpServices';
 import OurProcess from '../Our Process/Ourprocess';
 
-import About  from '../aboutmain/About';
+import Aboutmain from "../Aboutmainpage/Aboutmain"
+
+
 
 const Aboutus = () => {
   const [current, setCurrent] = useState(0);
@@ -24,7 +26,7 @@ const Aboutus = () => {
 
 
 <>
-    <About />
+    <Aboutmain />
     <div className='container-fluid mt-5 text-white'>
 
 

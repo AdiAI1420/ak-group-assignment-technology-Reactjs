@@ -1,0 +1,68 @@
+.trusted-card {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: skyblue;
+   
+}
+
+/* .card-name{
+    color: white;
+} */
+.card-descripton {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.testimonial {
+    flex: 1 1 200px;
+    padding: 20px;
+    border: px solid #ccc;
+    border-radius: 5px;
+    justify-content: start;
+}
+
+.testimonial p {
+    margin-bottom: 10px;
+}
+
+.testimonial h5 {
+    margin-bottom: 5px;
+}
+
+.card-title{
+    padding: 10px;
+    justify-content: center;
+    text-align: center;  
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media screen and (max-width: 576px) {
+    .card-title {
+      width: 90%;
+    }
+  }
+.sub-card {
+    box-shadow: 0px 2px 16px 4px #bfbfbf;
+    border: px solid;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    /* background: #131530;
+    color: white; */
+}

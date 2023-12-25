@@ -15,4 +15,3 @@ const {name,role,imageSrc} = teamDetails
 }
 
 export default TeamMember;
-
