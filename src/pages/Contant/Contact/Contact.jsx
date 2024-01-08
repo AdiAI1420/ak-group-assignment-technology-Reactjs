@@ -27,7 +27,7 @@ const Contact = () => {
     }
   };
   return (
-    <div className="contact-container container-fluid text-dark"><br />
+    <div className="contact-container container-fluid text-dark mt-lg-5" ><br />
       <h1 style={{ color: '#1bbd64' }}>Get in Contact with us</h1>
       <div style={{ display: 'flex', backgroundColor: "#fff"}} className='bg-container-form'>
         <div className="button-container p-3 shadow-
@@ -119,13 +119,13 @@ const Contact = () => {
           </span>
          
           <h5 className="">Email:</h5>
-          <p className="address-text">info@gmail.com <br/> contact@example.com</p>
+          <p className="address-text">accadamic.info2023@gmail.com <br/> accadamic.info2023.khalandar@gmail.com</p>
         </div>
         <div className="address-card">
           <span className='span'><BsPhone className='icon'/></span>
           
           <h5 className="">Cell:</h5>
-          <p className="address-text">+1 08338459440  <br/> +1 49499900030</p>
+          <p className="address-text">+91 8341553216  <br/> +91 9182888482</p>
         </div>
       </div>
 

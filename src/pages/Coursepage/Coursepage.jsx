@@ -1,5 +1,8 @@
 import React from "react";
-import "./Coursepage.css"
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "./Coursepage.css";
 import Course from "../courses/Courses";
 
 const Data = [
@@ -84,26 +87,39 @@ const Data = [
 
 
 const Coursepage = () => {
-  return (
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3, // Adjust the number of slides shown at a time
+    slidesToScroll: 1,
+  };
 
+  return (
     <>
-<Course />
-    
-    <div className="container">
-      <div className="row ">
+      <Course />
+
+      <div className="container">
         <h2 className="text-center">
-          Our <strong style={{ color: "#1bbd36" }}>Accadamic Service </strong>Technologys
+          Our <strong style={{ color: "#1bbd36" }}>Academic Service</strong> Technologies
         </h2>
-        <div className="row  card-container">
-      
-        {
-          Data.map((d) => (
-            <div key={d.id} className="col-sm-4 mt-5">
-              <div className="card" style={{ boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)", border: "1px solid #ccc", borderRadius: "5px", background: "#f8f8f8" }}>
+
+        <Slider {...settings}>
+          {Data.map((d) => (
+            <div key={d.id} className="mt-5">
+              <div
+                className="card"
+                style={{
+                  boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)",
+                  border: "1px solid #ccc",
+                  borderRadius: "5px",
+                  background: "#f8f8f8",
+                }}
+              >
                 <img
                   src={d.imageSrc}
-                  width="100%" // Set the width to 100% to make it responsive
-                  height="auto" // Let the height adjust automatically to maintain aspect ratio
+                  width="100%"
+                  height="auto"
                   alt={d.title}
                   className="card-img-top"
                 />
@@ -118,12 +134,9 @@ const Coursepage = () => {
                 </div>
               </div>
             </div>
-          ))
-        }
-        </div>
+          ))}
+        </Slider>
       </div>
-    </div>
-
     </>
   );
 };

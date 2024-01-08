@@ -45,7 +45,7 @@ const domainItems = [
 function Domains() {
   const domainCard = domainItems.map((eachItem) => {
     return (
-      <div className="col-md-4 mb-4 p-2">
+      <div className="col-md-4 mb-4 p-2 ">
         <div
           className="card"
           style={{
@@ -61,8 +61,8 @@ function Domains() {
               className="domain-images"
             />
             <div className="card-desc">
-              <h6 className="card-heading">{eachItem.title}</h6>
-              <p className="card-paragraph">{eachItem.desc}</p>
+              <h6 className="card-heading text-dark">{eachItem.title}</h6>
+              <p className="card-paragraph text-dark">{eachItem.desc}</p>
             </div>
           </div>
         </div>

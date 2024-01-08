@@ -1,5 +1,6 @@
 import React from 'react'
 import './trusted.css'
+import ItSupport from '../itVideos/itSupport';
 
 
 const testimonialsData = [
@@ -28,7 +29,10 @@ const testimonialsData = [
 
 const Trusted = () => {
   return (
-    <div className='trusted-container'>
+<>
+
+    <ItSupport />
+    <div className='trusted-container mt-5'>
       <div className='trusted-card'>
         <h2 className='card-name'>
           AK Tech to resolve 2+ million support tickets since 2020
@@ -58,7 +62,7 @@ const Trusted = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div></>
   )
 }
 

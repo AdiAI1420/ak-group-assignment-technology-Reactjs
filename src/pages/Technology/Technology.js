@@ -18,7 +18,7 @@ const pricingArr = [
 const Pricing = () => {
   return (
     <div className="container text-center mt-5">
-    <p className="lead shadow fw-bold  p-3 mb-5 bg-white rounded border border-primary animated fadeIn">
+    <p className="lead shadow fw-bold  p-3 mb-5  rounded border border-primary animated fadeIn">
     Implement various academic projects related to web technologies and services using the technologies you've mentioned, including <strong>Python with Django</strong>, <strong>Java</strong>, <strong>React</strong>, <strong>Angular</strong>, <strong>.NET</strong>, <strong>R</strong>, <strong>Machine Learning (ML)</strong>, <strong>Deep Learning (DL)</strong>, <strong>Data Science (DS)</strong>, and <strong>User Interface (UI)</strong> development. Here are some project ideas:
   </p>
   

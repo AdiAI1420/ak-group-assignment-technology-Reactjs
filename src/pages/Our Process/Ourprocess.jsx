@@ -1,6 +1,4 @@
 import React from 'react';
-
-
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -38,30 +36,36 @@ const OurProcess = () => {
       description: "Our engineer executes and presents the project to the students.",
     }
   ];
-
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
     <div className='container carousel-inner carousel text-dark'>
       <div className='px-5'>
-          <h2 className='text-center' >Our <span style={{ color: '#1bbd36' }}>Process</span></h2>
-          <Slider {...settings} className="slider">
-            {cards.map((card) => (
-              <div className='card p-1 fw-light text-center shadow-lg text-dark mx-5 '>
-                <div key={card.id}>
-                  <p><h4 className='text-dark'>#{card.id}</h4></p>
-                    <h3 className='text-dark'>{card.title}</h3>
-                    <p className='text-dark'>{card.description}</p>          
-                </div>
-              </div>
-            ))}
-          </Slider>
+        <h2 className='text-center'>Our <span style={{ color: '#1bbd36' }}>Process</span></h2>
+        <Slider {...settings} className="slider">
+          {cards.map((card) => (
+            <div key={card.id} className='card p-1 fw-light text-center shadow-lg text-dark mx-5' style={{ height: '300px', width: '250px', lineHeight: '1.5' }}>
+              <p><h4 className='text-dark'>#{card.id}</h4></p>
+              <dd className='text-dark'>{card.title}</dd>
+              <p className='text-dark'>{card.description}</p>
+            </div>
+          ))}
+        </Slider>
       </div>
     </div>
   );
